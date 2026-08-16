@@ -3,7 +3,7 @@
 <rect x="1" y="1" width="858" height="186" rx="17" fill="none" stroke="#1f2a35" stroke-width="2"/>
 <style><![CDATA[text { font-family: Consolas, "Courier New", monospace; fill: #d8e1ea; } .muted { fill: #8aa0b5; }]]></style>
 <text x="18" y="28" font-size="14">Last 53 weeks</text>
-<text x="18" y="168" font-size="12" class="muted">164 contributions in the last year</text>
+<text x="18" y="168" font-size="12" class="muted">170 contributions in the last year</text>
 <text x="250" y="168" font-size="12" class="muted">Current streak: 1</text>
 <text x="408" y="168" font-size="12" class="muted">Longest streak: 3</text>
 <text x="566" y="168" font-size="12" class="muted">Peak level: 2026-02-07 (58)</text>
@@ -380,7 +380,7 @@
 <rect x="792" y="90" width="11" height="11" rx="3" fill="#161b22" opacity="0"><title>2026-08-13: 0 contributions</title><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.60s" fill="freeze" /></rect>
 <rect x="792" y="104" width="11" height="11" rx="3" fill="#161b22" opacity="0"><title>2026-08-14: 0 contributions</title><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.62s" fill="freeze" /></rect>
 <rect x="792" y="118" width="11" height="11" rx="3" fill="#161b22" opacity="0"><title>2026-08-15: 0 contributions</title><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.64s" fill="freeze" /></rect>
-<rect x="792" y="132" width="11" height="11" rx="3" fill="#69f0a0" opacity="0"><title>2026-08-16: 17 contributions</title><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.65s" fill="freeze" /></rect>
+<rect x="792" y="132" width="11" height="11" rx="3" fill="#69f0a0" opacity="0"><title>2026-08-16: 23 contributions</title><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.65s" fill="freeze" /></rect>
 <text x="620" y="28" font-size="12" class="muted">Less</text>
 <rect x="658" y="18" width="11" height="11" rx="3" fill="#161b22"/>
 <rect x="676" y="18" width="11" height="11" rx="3" fill="#0e4429"/>
