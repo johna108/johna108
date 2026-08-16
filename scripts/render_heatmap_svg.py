@@ -6,6 +6,8 @@ from pathlib import Path
 
 
 PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+GRID_X = 64
+GRID_Y = 48
 
 
 def load_data() -> dict[str, object]:
@@ -29,8 +31,8 @@ def week_grid() -> list[list[str]]:
 
 
 def rect_for(index_x: int, index_y: int, level: int, count: int, day: str) -> str:
-    x = 18 + index_x * 14
-    y = 48 + index_y * 14
+    x = GRID_X + index_x * 14
+    y = GRID_Y + index_y * 14
     fill = PALETTE[min(level, 5)]
     delay = (index_x * 0.03) + (index_y * 0.015)
     return (
