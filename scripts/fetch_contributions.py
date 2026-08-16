@@ -11,6 +11,44 @@ import requests
 from bs4 import BeautifulSoup
 
 
+def fetch_graphql(token: str, username: str) -> list[dict[str, int | str]]:
+    query = """
+    query($userName: String!) {
+      user(login: $userName) {
+        contributionsCollection {
+          contributionCalendar {
+            totalContributions
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+                color
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    response = requests.post(
+        "https://api.github.com/graphql",
+        json={"query": query, "variables": {"userName": username}},
+        headers={"Authorization": f"Bearer {token}", "User-Agent": "profile-art-bot"},
+        timeout=20,
+    )
+    response.raise_for_status()
+    data = response.json()
+    if "errors" in data:
+        raise RuntimeError(data["errors"])
+    days = []
+    for week in data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]:
+        for day in week["contributionDays"]:
+            count = day["contributionCount"]
+            level = 0 if count == 0 else min(5, 1 + count // 2)
+            days.append({"date": day["date"], "count": count, "level": level})
+    return days
+
+
 def parse_total(html: str) -> int:
     match = re.search(r"([\d,]+) contributions in the last year", html)
     if not match:
@@ -20,17 +58,41 @@ def parse_total(html: str) -> int:
 
 def parse_day_cells(html: str) -> list[dict[str, int | str]]:
     soup = BeautifulSoup(html, "html.parser")
-    cells = []
+    tooltip_by_cell: dict[str, str] = {}
+    for tip in soup.select("tool-tip[for]"):
+        cell_id = tip.get("for")
+        text = tip.get_text(" ", strip=True)
+        if cell_id and text:
+            tooltip_by_cell[cell_id] = text
+
+    # Deduplicate by date: keep last occurrence (GitHub renders oldest→newest in columns)
+    by_date: dict[str, dict[str, int | str]] = {}
     for cell in soup.select('td[data-date][data-level]'):
+        cell_id = cell.get("id")
         day = cell.get("data-date")
         if not day:
             continue
+        tooltip_text = tooltip_by_cell.get(cell_id or "", "")
+        count = 0
+        if tooltip_text.startswith("No contributions"):
+            count = 0
+        else:
+            match = re.match(r"(?P<count>[\d,]+) contribution(?:s)? on ", tooltip_text)
+            if match:
+                count = int(match.group("count").replace(",", ""))
+            else:
+                try:
+                    count = int(cell.get("data-level", "0"))
+                except ValueError:
+                    count = 0
         try:
             level = int(cell.get("data-level", "0"))
         except ValueError:
-            continue
-        cells.append({"date": day, "count": level, "level": level})
-    return cells
+            level = 0
+        by_date[day] = {"date": day, "count": count, "level": level}
+
+    # Sort chronologically
+    return [by_date[d] for d in sorted(by_date.keys())]
 
 
 def streaks(days: list[dict[str, int | str]]) -> tuple[int, int]:
@@ -88,20 +150,23 @@ def fallback_days() -> list[dict[str, int | str]]:
 
 def main() -> int:
     username = os.environ.get("GITHUB_USER", "johna108")
-    url = f"https://github.com/users/{username}/contributions"
+    token = os.environ.get("GITHUB_TOKEN")
     try:
-        response = requests.get(url, timeout=20, headers={"User-Agent": "profile-art-bot"})
-        response.raise_for_status()
-        total = parse_total(response.text)
-        days = parse_day_cells(response.text)
-        if not days:
-            raise RuntimeError("No contribution cells found")
+        if token:
+            days = fetch_graphql(token, username)
+        else:
+            url = f"https://github.com/users/{username}/contributions"
+            response = requests.get(url, timeout=20, headers={"User-Agent": "profile-art-bot"})
+            response.raise_for_status()
+            days = parse_day_cells(response.text)
+            if not days:
+                raise RuntimeError("No contribution cells found")
     except Exception:
         days = fallback_days()
-        total = sum(int(day["count"]) for day in days)
 
+    total = sum(int(day["count"]) for day in days)
     payload = contribution_summary(days)
-    payload["total"] = total or payload["total"]
+    payload["total"] = total
     data_path = Path("data")
     data_path.mkdir(parents=True, exist_ok=True)
     (data_path / "contributions.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
