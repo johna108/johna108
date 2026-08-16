@@ -7,7 +7,7 @@ from xml.sax.saxutils import escape
 
 
 LINES = [
-    ("John.AI:", "Hi! I'm glad you found me because I was getting bored... anyway here is my info card"),
+    ("John.AI:", "Hi! I'm glad you found me... cuz... I was getting pretty bored... anyway here is my info card"),
     ("Name", "Jakkula John Samuel Levith"),
     ("Focus", "AI/ML + full-stack systems"),
     ("Contact", "Hyderabad | jhonsamliv@gmail.com | +91 7396657238"),
