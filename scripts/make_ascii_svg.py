@@ -27,6 +27,11 @@ def load_font() -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     return ImageFont.load_default()
 
 
+def measure_char_width(font: ImageFont.FreeTypeFont | ImageFont.ImageFont) -> float:
+    bbox = font.getbbox("M")
+    return float(bbox[2] - bbox[0]) if bbox else 6.0
+
+
 def source_image(path: Path) -> Image.Image:
     if path.exists():
         return Image.open(path).convert("L")
@@ -45,7 +50,9 @@ def source_image(path: Path) -> Image.Image:
 def image_to_ascii(image: Image.Image, columns: int = PORTRAIT_WIDTH) -> list[str]:
     width, height = image.size
     aspect = height / max(width, 1)
-    rows = max(1, round(columns * aspect * 0.52))
+    font = load_font()
+    char_width = measure_char_width(font)
+    rows = max(1, round(columns * aspect * (char_width / LINE_HEIGHT)))
     resized = image.resize((columns, rows))
     lines: list[str] = []
     ramp_max = len(RAMP) - 1
@@ -59,10 +66,11 @@ def image_to_ascii(image: Image.Image, columns: int = PORTRAIT_WIDTH) -> list[st
     return lines
 
 
-def build_svg(lines: list[str]) -> str:
-    max_width = max((len(line) for line in lines), default=0)
-    width = LEFT_PAD * 2 + max_width * 6.1
+def build_svg(lines: list[str], source_size: tuple[int, int]) -> str:
+    source_width, source_height = source_size
     height = TOP_PAD * 2 + len(lines) * LINE_HEIGHT
+    width = round(height * (source_width / max(source_height, 1)))
+    char_width = (width - LEFT_PAD * 2) / PORTRAIT_WIDTH
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width:.0f}" height="{height:.0f}" viewBox="0 0 {width:.0f} {height:.0f}" role="img" aria-label="ASCII portrait">',
         '<rect width="100%" height="100%" rx="18" fill="#0b0f14"/>',
@@ -72,7 +80,7 @@ def build_svg(lines: list[str]) -> str:
         y = TOP_PAD + index * LINE_HEIGHT
         clip_id = f"clip{index}"
         delay = index * 0.035
-        text_width = max(1.0, len(line) * 6.1)
+        text_width = max(1.0, PORTRAIT_WIDTH * char_width)
         parts.append(
             f'<clipPath id="{clip_id}"><rect x="{LEFT_PAD}" y="{y - 9}" width="0" height="14">'
             f'<animate attributeName="width" from="0" to="{text_width:.2f}" dur="0.9s" begin="{delay:.2f}s" fill="freeze" />'
@@ -95,7 +103,7 @@ def main() -> int:
     image_path = Path("source-prepped.png")
     image = source_image(image_path)
     lines = image_to_ascii(image)
-    Path("avi-ascii.svg").write_text(build_svg(lines), encoding="utf-8")
+    Path("avi-ascii.svg").write_text(build_svg(lines, image.size), encoding="utf-8")
     return 0
 
 
