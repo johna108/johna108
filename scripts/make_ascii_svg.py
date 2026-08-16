@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -10,7 +11,13 @@ FONT_SIZE = 10
 LEFT_PAD = 10
 TOP_PAD = 18
 LINE_HEIGHT = 12
-PORTRAIT_WIDTH = 100
+PORTRAIT_WIDTH = 60
+CHAR_DELAY = 0.00002
+CHAR_STEP = 0.0020
+CHAR_FADE = 0.010
+LINE_GAP = 0.000
+CROP_THRESHOLD = 245
+CROP_MARGIN = 0.06
 
 
 def load_font() -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
@@ -47,13 +54,35 @@ def source_image(path: Path) -> Image.Image:
     return image
 
 
+def crop_portrait(image: Image.Image) -> Image.Image:
+    mask = image.point(lambda pixel: 255 if pixel < CROP_THRESHOLD else 0)
+    bbox = mask.getbbox()
+    if not bbox:
+        return image
+
+    left, top, right, bottom = bbox
+    width, height = image.size
+    pad_x = max(4, round((right - left) * CROP_MARGIN))
+    pad_y = max(4, round((bottom - top) * CROP_MARGIN))
+
+    return image.crop(
+        (
+            max(0, left - pad_x),
+            max(0, top - pad_y),
+            min(width, right + pad_x),
+            min(height, bottom + pad_y),
+        )
+    )
+
+
 def image_to_ascii(image: Image.Image, columns: int = PORTRAIT_WIDTH) -> list[str]:
+    image = crop_portrait(image)
     width, height = image.size
     aspect = height / max(width, 1)
     font = load_font()
     char_width = measure_char_width(font)
     rows = max(1, round(columns * aspect * (char_width / LINE_HEIGHT)))
-    resized = image.resize((columns, rows))
+    resized = image.resize((columns, rows), Image.Resampling.LANCZOS)
     lines: list[str] = []
     ramp_max = len(RAMP) - 1
     for y in range(rows):
@@ -62,38 +91,53 @@ def image_to_ascii(image: Image.Image, columns: int = PORTRAIT_WIDTH) -> list[st
             shade = resized.getpixel((x, y))
             index = round((shade / 255) * ramp_max)
             chars.append(RAMP[index])
-        lines.append("".join(chars).rstrip())
+        lines.append("".join(chars))
     return lines
 
 
-def build_svg(lines: list[str], source_size: tuple[int, int]) -> str:
-    source_width, source_height = source_size
+def build_svg(lines: list[str], font: ImageFont.FreeTypeFont | ImageFont.ImageFont, columns: int) -> str:
+    char_width = measure_char_width(font)
+    width = round(LEFT_PAD * 2 + columns * char_width)
     height = TOP_PAD * 2 + len(lines) * LINE_HEIGHT
-    width = round(height * (source_width / max(source_height, 1)))
-    char_width = (width - LEFT_PAD * 2) / PORTRAIT_WIDTH
+    line_duration = columns * CHAR_STEP + LINE_GAP
+    cursor_width = max(4.0, round(char_width * 0.75, 2))
+    cursor_height = max(8.0, round(LINE_HEIGHT * 0.72, 2))
+    cursor_y_offset = round((LINE_HEIGHT - cursor_height) / 2, 2)
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width:.0f}" height="{height:.0f}" viewBox="0 0 {width:.0f} {height:.0f}" role="img" aria-label="ASCII portrait">',
         '<rect width="100%" height="100%" rx="18" fill="#0b0f14"/>',
-        '<style><![CDATA[text { font-family: Consolas, "Courier New", monospace; font-size: 10px; fill: #c7d0db; white-space: pre; } .cursor { fill: #d7dee6; } ]]></style>',
+        '<style><![CDATA[text { font-family: Consolas, "Courier New", monospace; font-size: 10px; fill: #c7d0db; white-space: pre; } .cursor { fill: #d7dee6; }]]></style>',
     ]
     for index, line in enumerate(lines):
         y = TOP_PAD + index * LINE_HEIGHT
-        clip_id = f"clip{index}"
-        delay = index * 0.035
-        text_width = max(1.0, PORTRAIT_WIDTH * char_width)
-        parts.append(
-            f'<clipPath id="{clip_id}"><rect x="{LEFT_PAD}" y="{y - 9}" width="0" height="14">'
-            f'<animate attributeName="width" from="0" to="{text_width:.2f}" dur="0.9s" begin="{delay:.2f}s" fill="freeze" />'
-            f"</rect></clipPath>"
+        line_delay = index * line_duration
+        parts.append(f'<text xml:space="preserve" font-size="10px" y="{y}">')
+        for column, character in enumerate(line):
+            char_delay = line_delay + column * CHAR_STEP
+            x = LEFT_PAD + column * char_width
+            escaped = html.escape(character or " ")
+            parts.append(
+                f'<tspan x="{x:.2f}" y="{y}" opacity="0">{escaped}'
+                f'<animate attributeName="opacity" from="0" to="1" dur="{CHAR_FADE:.3f}s" begin="{char_delay:.3f}s" fill="freeze" />'
+                f'</tspan>'
+            )
+        parts.append("</text>")
+        cursor_positions = [LEFT_PAD + column * char_width for column in range(min(columns, len(line)))]
+        if not cursor_positions:
+            cursor_positions = [LEFT_PAD]
+        cursor_values = ";".join(f"{position:.2f}" for position in cursor_positions)
+        cursor_key_times = ";".join(
+            f"{(index / max(1, len(cursor_positions) - 1)):.4f}"
+            for index in range(len(cursor_positions))
         )
-        parts.append(f'<g clip-path="url(#{clip_id})">')
-        parts.append(f'<text x="{LEFT_PAD}" y="{y}" xml:space="preserve">{line or " "}</text>')
-        parts.append("</g>")
+        cursor_x = cursor_positions[0]
+        cursor_y = y - LINE_HEIGHT + cursor_y_offset
         parts.append(
-            f'<rect class="cursor" x="{LEFT_PAD}" y="{y - 9}" width="5" height="12" opacity="0">'
-            f'<animate attributeName="x" from="{LEFT_PAD}" to="{LEFT_PAD + text_width:.2f}" dur="0.9s" begin="{delay:.2f}s" fill="freeze" />'
-            f'<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="{delay:.2f}s" fill="freeze" />'
-            f"</rect>"
+            f'<rect class="cursor" x="{cursor_x:.2f}" y="{cursor_y:.2f}" width="{cursor_width:.2f}" height="{cursor_height:.2f}" opacity="0">'
+            f'<animate attributeName="x" values="{cursor_values}" keyTimes="{cursor_key_times}" dur="{line_duration:.3f}s" begin="{line_delay:.3f}s" calcMode="discrete" fill="freeze" />'
+            f'<animate attributeName="opacity" values="0;1;1;0" dur="0.18s" begin="{line_delay:.3f}s" repeatCount="indefinite" />'
+            f'<animate attributeName="opacity" values="1;0" dur="0.01s" begin="{line_delay + line_duration:.3f}s" fill="freeze" />'
+            f'</rect>'
         )
     parts.append("</svg>")
     return "\n".join(parts)
@@ -102,8 +146,9 @@ def build_svg(lines: list[str], source_size: tuple[int, int]) -> str:
 def main() -> int:
     image_path = Path("source-prepped.png")
     image = source_image(image_path)
+    font = load_font()
     lines = image_to_ascii(image)
-    Path("avi-ascii.svg").write_text(build_svg(lines, image.size), encoding="utf-8")
+    Path("avi-ascii.svg").write_text(build_svg(lines, font, PORTRAIT_WIDTH), encoding="utf-8")
     return 0
 
 
