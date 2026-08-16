@@ -4,7 +4,12 @@
 <table>
   <tr>
     <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII portrait" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch-style profile card" /></td>
+    <td valign="middle" align="center" style="text-align: center; vertical-align: middle;">
+  <img src="./info-card.svg" width="490" alt="Neofetch-style profile card" />
+</td>
+
+
+
   </tr>
 </table>
 
