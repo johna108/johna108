@@ -1,0 +1,349 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="864" viewBox="0 0 630 864" role="img" aria-label="ASCII portrait">
+<rect width="100%" height="100%" rx="18" fill="#0b0f14"/>
+<style><![CDATA[text { font-family: Consolas, "Courier New", monospace; font-size: 10px; fill: #c7d0db; white-space: pre; } .cursor { fill: #d7dee6; } ]]></style>
+<clipPath id="clip0"><rect x="10" y="9" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.00s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip0)">
+<text x="10" y="18" xml:space="preserve">ccccccccccccccccccccccssssssss#################################ssssssssssssssssssssssssssccccccccccc</text>
+</g>
+<rect class="cursor" x="10" y="9" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.00s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.00s" fill="freeze" /></rect>
+<clipPath id="clip1"><rect x="10" y="21" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.04s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip1)">
+<text x="10" y="30" xml:space="preserve">cccccccccccccccccccccsssssssss####################################sssssssssssssssssssssssssssssccccc</text>
+</g>
+<rect class="cursor" x="10" y="21" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.04s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.04s" fill="freeze" /></rect>
+<clipPath id="clip2"><rect x="10" y="33" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.07s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip2)">
+<text x="10" y="42" xml:space="preserve">ccccccccccsssscccccsssssssss#######################################sssssssssssssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="33" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.07s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.07s" fill="freeze" /></rect>
+<clipPath id="clip3"><rect x="10" y="45" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.11s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip3)">
+<text x="10" y="54" xml:space="preserve">cccccccccssssssssssssssssss#########ssc****cs######################sssssssssssssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="45" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.11s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.11s" fill="freeze" /></rect>
+<clipPath id="clip4"><rect x="10" y="57" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.14s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip4)">
+<text x="10" y="66" xml:space="preserve">cccccccssssssssssssssssss#######s*+-::```:::-=+*s#sc*****cs#########ssssssssssssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="57" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.14s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.14s" fill="freeze" /></rect>
+<clipPath id="clip5"><rect x="10" y="69" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.18s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip5)">
+<text x="10" y="78" xml:space="preserve">ccccccsssssssssssssssssss###sc+-::``:::`````::::-==-:`````:=*s##########ssssssssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="69" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.18s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.18s" fill="freeze" /></rect>
+<clipPath id="clip6"><rect x="10" y="81" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.21s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip6)">
+<text x="10" y="90" xml:space="preserve">cccccccssssssssssssssss###s*-`..``::`````````````````:::`````:+c##########ssssssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="81" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.21s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.21s" fill="freeze" /></rect>
+<clipPath id="clip7"><rect x="10" y="93" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.25s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip7)">
+<text x="10" y="102" xml:space="preserve">ccccsssssssssssssssssss##c-`...``:````..`.``:::``...`:::::`....`-+c##########sssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="93" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.25s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.25s" fill="freeze" /></rect>
+<clipPath id="clip8"><rect x="10" y="105" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.28s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip8)">
+<text x="10" y="114" xml:space="preserve">cccssssssssssssssssss###*:`...`::`........``:```````...`````.....`:-*########sssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="105" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.28s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.28s" fill="freeze" /></rect>
+<clipPath id="clip9"><rect x="10" y="117" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.32s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip9)">
+<text x="10" y="126" xml:space="preserve">ccccsssssssssssssss###s+``...`::`.`....`:`:::``..`:-`..````````....`:=s########sssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="117" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.32s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.32s" fill="freeze" /></rect>
+<clipPath id="clip10"><rect x="10" y="129" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.35s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip10)">
+<text x="10" y="138" xml:space="preserve">ccccsssssssssss######s=`.....::```.....`:`.......`-=`..`:-:```....``:::c########ssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="129" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.35s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.35s" fill="freeze" /></rect>
+<clipPath id="clip11"><rect x="10" y="141" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.39s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip11)">
+<text x="10" y="150" xml:space="preserve">ccccssssssss#######s*:......```:`....`...........`-=:...`````.....```::-s######sssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="141" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.39s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.39s" fill="freeze" /></rect>
+<clipPath id="clip12"><rect x="10" y="153" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.42s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip12)">
+<text x="10" y="162" xml:space="preserve">ccccsssssssss#####s+:`.......`:`...`..```::::`:::-===-:`.  ........```-`=######sssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="153" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.42s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.42s" fill="freeze" /></rect>
+<clipPath id="clip13"><rect x="10" y="165" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.46s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip13)">
+<text x="10" y="174" xml:space="preserve">cccssssssss#######*-`.............```-=+++++++**cccccc*=-:`...`..`..`.```c#####sssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="165" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.46s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.46s" fill="freeze" /></rect>
+<clipPath id="clip14"><rect x="10" y="177" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.49s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip14)">
+<text x="10" y="186" xml:space="preserve">cssssssssss#######*:...............:=+**ccccccsss##ssscc*+-:...`.````..`.*######ssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="177" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.49s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.49s" fill="freeze" /></rect>
+<clipPath id="clip15"><rect x="10" y="189" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.53s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip15)">
+<text x="10" y="198" xml:space="preserve">ssssssssssss######*`..............`-+**cccsss#s#####ssccc*+=:`.``````....=s######ssss##sssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="189" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.53s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.53s" fill="freeze" /></rect>
+<clipPath id="clip16"><rect x="10" y="201" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.56s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip16)">
+<text x="10" y="210" xml:space="preserve">ssssssssssss##s##s-`..............:+**ccss#####%%%#####ssc*+=`.```:......-c*####ssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="201" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.56s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.56s" fill="freeze" /></rect>
+<clipPath id="clip17"><rect x="10" y="213" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.60s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip17)">
+<text x="10" y="222" xml:space="preserve">sssssssssssss####c:`.........  ...-+*ccs####%%%%%%%%%%%#sc*+=`..`:`......-cs###sssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="213" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.60s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.60s" fill="freeze" /></rect>
+<clipPath id="clip18"><rect x="10" y="225" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.63s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip18)">
+<text x="10" y="234" xml:space="preserve">sssssssssssss####s+``......   ...:+ccccsss#####%%%%%%%%##sc*+:..`:......`+######ssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="225" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.63s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.63s" fill="freeze" /></rect>
+<clipPath id="clip19"><rect x="10" y="237" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.67s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip19)">
+<text x="10" y="246" xml:space="preserve">ssssssssssss######c:`... .......:==---::::-=+*c##sc**+=====--:...`.....`=c########ssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="237" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.67s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.67s" fill="freeze" /></rect>
+<clipPath id="clip20"><rect x="10" y="249" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.70s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip20)">
+<text x="10" y="258" xml:space="preserve">sssssssssssssss####*`.........`:::==+==-:`````+cc+::```:----:.........`:s#########ssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="249" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.70s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.70s" fill="freeze" /></rect>
+<clipPath id="clip21"><rect x="10" y="261" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.74s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip21)">
+<text x="10" y="270" xml:space="preserve">ssssssssssssss####s*-.........:==+==-::``:```-*#s+:`:::-====-`.......``-s########sssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="261" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.74s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.74s" fill="freeze" /></rect>
+<clipPath id="clip22"><rect x="10" y="273" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.77s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip22)">
+<text x="10" y="282" xml:space="preserve">sssssssssssss##s####s-..... .`=+*=:`:-``-+:--=s%%*---==..::```......``.=s#######ssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="273" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.77s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.77s" fill="freeze" /></rect>
+<clipPath id="clip23"><rect x="10" y="285" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.81s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip23)">
+<text x="10" y="294" xml:space="preserve">ssssssssssssssssss###s:......-+cc*+=---=--+++*s%%s+++=====-:::`....````*s#######ssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="285" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.81s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.81s" fill="freeze" /></rect>
+<clipPath id="clip24"><rect x="10" y="297" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.84s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip24)">
+<text x="10" y="306" xml:space="preserve">sssssssssssssssss#####c:``...=*css#ssccccssc*c#%%s**scc**+**+=-::```:.=s########ssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="297" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.84s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.84s" fill="freeze" /></rect>
+<clipPath id="clip25"><rect x="10" y="309" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.88s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip25)">
+<text x="10" y="318" xml:space="preserve">sssssssssssssss########*::`..=*cs####%%%%%s**s%%%#*+s%%%%##ss*+=-`-::=s##########sssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="309" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.88s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.88s" fill="freeze" /></rect>
+<clipPath id="clip26"><rect x="10" y="321" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.91s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip26)">
+<text x="10" y="330" xml:space="preserve">cssssssssssssssss#######*--`.-+*css##%%%%#cc*c#%%s**c#%%%%#ssc*+:`-+c############sssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="321" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.91s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.91s" fill="freeze" /></rect>
+<clipPath id="clip27"><rect x="10" y="333" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.95s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip27)">
+<text x="10" y="342" xml:space="preserve">csssssssssssssssss#######+--::=+*csss####s+:``=*+::-+s####ssc*++::-c%##########sssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="333" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.95s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.95s" fill="freeze" /></rect>
+<clipPath id="clip28"><rect x="10" y="345" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="0.98s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip28)">
+<text x="10" y="354" xml:space="preserve">sssssssssssssssssss######s+==:==+**cccssss*=--:```:-*s##sscc*++---+##########sssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="345" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="0.98s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="0.98s" fill="freeze" /></rect>
+<clipPath id="clip29"><rect x="10" y="357" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.02s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip29)">
+<text x="10" y="366" xml:space="preserve">csssssssssssssssssss######s*+=-===+***cccccccc*+***cccccccc*+==-=+*##########sssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="357" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.02s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.02s" fill="freeze" /></rect>
+<clipPath id="clip30"><rect x="10" y="369" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.05s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip30)">
+<text x="10" y="378" xml:space="preserve">csssssssssssssssssss########=..-===+****=--::::-:::--=+***+===:.`-*s#########sssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="369" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.05s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.05s" fill="freeze" /></rect>
+<clipPath id="clip31"><rect x="10" y="381" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.09s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip31)">
+<text x="10" y="390" xml:space="preserve">ccsssssssssssssssssss#######c` .-===+**++=--=****+=::-=+*+==-:. `c#############sssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="381" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.09s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.09s" fill="freeze" /></rect>
+<clipPath id="clip32"><rect x="10" y="393" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.12s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip32)">
+<text x="10" y="402" xml:space="preserve">cssssssssssssssssssss########*` .---==+**c*+===-====+*++=----...+#############ssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="393" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.12s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.12s" fill="freeze" /></rect>
+<clipPath id="clip33"><rect x="10" y="405" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.16s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip33)">
+<text x="10" y="414" xml:space="preserve">ccssssssssssssssssss#######%%#s+-::::-=+*****++*++***++=-::-:.:+#############sssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="405" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.16s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.16s" fill="freeze" /></rect>
+<clipPath id="clip34"><rect x="10" y="417" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.19s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip34)">
+<text x="10" y="426" xml:space="preserve">cssssssssssssssssss########%%%%%#-:``::=*css##%####ssc+-::::=c##############sss#ssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="417" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.19s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.19s" fill="freeze" /></rect>
+<clipPath id="clip35"><rect x="10" y="429" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.23s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip35)">
+<text x="10" y="438" xml:space="preserve">ccssssssssssssssss##########%%%%%*-:````-+*ccccssccc*+:```:-=#%%#################ss###ssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="429" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.23s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.23s" fill="freeze" /></rect>
+<clipPath id="clip36"><rect x="10" y="441" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.26s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip36)">
+<text x="10" y="450" xml:space="preserve">ccssssssssssssssssss#########%%%%c---:``.``:::::::::````:-===s##%##########s#####ss#ssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="441" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.26s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.26s" fill="freeze" /></rect>
+<clipPath id="clip37"><rect x="10" y="453" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.30s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip37)">
+<text x="10" y="462" xml:space="preserve">ccsssssssssssssssssss#########%%%s====-:`````.....````:-=++++++-=c####sssssssssss#s#ssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="453" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.30s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.30s" fill="freeze" /></rect>
+<clipPath id="clip38"><rect x="10" y="465" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.33s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip38)">
+<text x="10" y="474" xml:space="preserve">ccsssssssssssssssssss#########c***=++++=-::::::::::::--+**c**+*+..`-+cssssssssssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="465" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.33s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.33s" fill="freeze" /></rect>
+<clipPath id="clip39"><rect x="10" y="477" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.37s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip39)">
+<text x="10" y="486" xml:space="preserve">cssssssssssssssssssssss###sc+::+*+++****+=-----::----=+*cccc***:.....``-+cssssssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="477" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.37s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.37s" fill="freeze" /></rect>
+<clipPath id="clip40"><rect x="10" y="489" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.40s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip40)">
+<text x="10" y="498" xml:space="preserve">sssssssssssssssssssssssc+-:...-c*+++**c***+++=======++*cccccc+`...........:=csssssssssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="489" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.40s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.40s" fill="freeze" /></rect>
+<clipPath id="clip41"><rect x="10" y="501" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.44s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip41)">
+<text x="10" y="510" xml:space="preserve">ssssssssssssssssssss*=:`.......:+*****cccc*+++++++=+**ccssc+:...............`-+*cs#sssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="501" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.44s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.44s" fill="freeze" /></rect>
+<clipPath id="clip42"><rect x="10" y="513" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.47s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip42)">
+<text x="10" y="522" xml:space="preserve">sssssssssssssssssc+-........... .:-+****ccc**++++++**cc*+-`. ...................`-+cssssssssssssssss</text>
+</g>
+<rect class="cursor" x="10" y="513" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.47s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.47s" fill="freeze" /></rect>
+<clipPath id="clip43"><rect x="10" y="525" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.51s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip43)">
+<text x="10" y="534" xml:space="preserve">sssssssssssssc*+-`...............  .`:-=+*****+++====-:`. .........................`:-+*s##sssssssss</text>
+</g>
+<rect class="cursor" x="10" y="525" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.51s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.51s" fill="freeze" /></rect>
+<clipPath id="clip44"><rect x="10" y="537" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.54s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip44)">
+<text x="10" y="546" xml:space="preserve">sssssssssc*=-:`......................  ....````....... ................................`:+*ss#ssssss</text>
+</g>
+<rect class="cursor" x="10" y="537" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.54s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.54s" fill="freeze" /></rect>
+<clipPath id="clip45"><rect x="10" y="549" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.58s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip45)">
+<text x="10" y="558" xml:space="preserve">sssssss*-:`...............................................................................`:=c##ssss</text>
+</g>
+<rect class="cursor" x="10" y="549" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.58s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.58s" fill="freeze" /></rect>
+<clipPath id="clip46"><rect x="10" y="561" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.61s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip46)">
+<text x="10" y="570" xml:space="preserve">sssss*-`....................................................................................``=c#sss</text>
+</g>
+<rect class="cursor" x="10" y="561" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.61s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.61s" fill="freeze" /></rect>
+<clipPath id="clip47"><rect x="10" y="573" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.65s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip47)">
+<text x="10" y="582" xml:space="preserve">sss*-`.........................................................................................:*##s</text>
+</g>
+<rect class="cursor" x="10" y="573" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.65s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.65s" fill="freeze" /></rect>
+<clipPath id="clip48"><rect x="10" y="585" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.68s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip48)">
+<text x="10" y="594" xml:space="preserve">s*-`...........................................................................................``+s#</text>
+</g>
+<rect class="cursor" x="10" y="585" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.68s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.68s" fill="freeze" /></rect>
+<clipPath id="clip49"><rect x="10" y="597" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.72s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip49)">
+<text x="10" y="606" xml:space="preserve">-`...............................................................................................`+#</text>
+</g>
+<rect class="cursor" x="10" y="597" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.72s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.72s" fill="freeze" /></rect>
+<clipPath id="clip50"><rect x="10" y="609" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.75s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip50)">
+<text x="10" y="618" xml:space="preserve">..................................................................................................`*</text>
+</g>
+<rect class="cursor" x="10" y="609" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.75s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.75s" fill="freeze" /></rect>
+<clipPath id="clip51"><rect x="10" y="621" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.79s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip51)">
+<text x="10" y="630" xml:space="preserve">..................................................................................................``</text>
+</g>
+<rect class="cursor" x="10" y="621" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.79s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.79s" fill="freeze" /></rect>
+<clipPath id="clip52"><rect x="10" y="633" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.82s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip52)">
+<text x="10" y="642" xml:space="preserve">....................................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="633" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.82s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.82s" fill="freeze" /></rect>
+<clipPath id="clip53"><rect x="10" y="645" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.86s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip53)">
+<text x="10" y="654" xml:space="preserve">....................................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="645" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.86s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.86s" fill="freeze" /></rect>
+<clipPath id="clip54"><rect x="10" y="657" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.89s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip54)">
+<text x="10" y="666" xml:space="preserve">....................................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="657" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.89s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.89s" fill="freeze" /></rect>
+<clipPath id="clip55"><rect x="10" y="669" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.93s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip55)">
+<text x="10" y="678" xml:space="preserve">....................................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="669" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.93s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.93s" fill="freeze" /></rect>
+<clipPath id="clip56"><rect x="10" y="681" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="1.96s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip56)">
+<text x="10" y="690" xml:space="preserve">....................................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="681" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="1.96s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="1.96s" fill="freeze" /></rect>
+<clipPath id="clip57"><rect x="10" y="693" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.00s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip57)">
+<text x="10" y="702" xml:space="preserve">....................................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="693" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.00s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.00s" fill="freeze" /></rect>
+<clipPath id="clip58"><rect x="10" y="705" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.03s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip58)">
+<text x="10" y="714" xml:space="preserve">....................................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="705" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.03s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.03s" fill="freeze" /></rect>
+<clipPath id="clip59"><rect x="10" y="717" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.07s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip59)">
+<text x="10" y="726" xml:space="preserve">....................................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="717" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.07s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.07s" fill="freeze" /></rect>
+<clipPath id="clip60"><rect x="10" y="729" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.10s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip60)">
+<text x="10" y="738" xml:space="preserve">....................................................................................... ............</text>
+</g>
+<rect class="cursor" x="10" y="729" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.10s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.10s" fill="freeze" /></rect>
+<clipPath id="clip61"><rect x="10" y="741" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.14s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip61)">
+<text x="10" y="750" xml:space="preserve">.......  .............................................................................. ............</text>
+</g>
+<rect class="cursor" x="10" y="741" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.14s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.14s" fill="freeze" /></rect>
+<clipPath id="clip62"><rect x="10" y="753" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.17s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip62)">
+<text x="10" y="762" xml:space="preserve">........  ..........................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="753" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.17s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.17s" fill="freeze" /></rect>
+<clipPath id="clip63"><rect x="10" y="765" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.21s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip63)">
+<text x="10" y="774" xml:space="preserve">......... ..................................................................................  ......</text>
+</g>
+<rect class="cursor" x="10" y="765" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.21s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.21s" fill="freeze" /></rect>
+<clipPath id="clip64"><rect x="10" y="777" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.24s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip64)">
+<text x="10" y="786" xml:space="preserve">............................................................................................ .......</text>
+</g>
+<rect class="cursor" x="10" y="777" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.24s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.24s" fill="freeze" /></rect>
+<clipPath id="clip65"><rect x="10" y="789" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.28s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip65)">
+<text x="10" y="798" xml:space="preserve">......... .................................................................................  .......</text>
+</g>
+<rect class="cursor" x="10" y="789" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.28s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.28s" fill="freeze" /></rect>
+<clipPath id="clip66"><rect x="10" y="801" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.31s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip66)">
+<text x="10" y="810" xml:space="preserve">.........  ........................................................................... .... ........</text>
+</g>
+<rect class="cursor" x="10" y="801" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.31s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.31s" fill="freeze" /></rect>
+<clipPath id="clip67"><rect x="10" y="813" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.35s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip67)">
+<text x="10" y="822" xml:space="preserve">.........  ............................................................................... .........</text>
+</g>
+<rect class="cursor" x="10" y="813" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.35s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.35s" fill="freeze" /></rect>
+<clipPath id="clip68"><rect x="10" y="825" width="0" height="14"><animate attributeName="width" from="0" to="610.00" dur="0.9s" begin="2.38s" fill="freeze" /></rect></clipPath>
+<g clip-path="url(#clip68)">
+<text x="10" y="834" xml:space="preserve">.... ..... .........................................................................................</text>
+</g>
+<rect class="cursor" x="10" y="825" width="5" height="12" opacity="0"><animate attributeName="x" from="10" to="620.00" dur="0.9s" begin="2.38s" fill="freeze" /><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;1" dur="0.9s" begin="2.38s" fill="freeze" /></rect>
+</svg>
