@@ -5,6 +5,7 @@ from pathlib import Path
 
 
 LINES = [
+    "Hi! I'm glad you found me because I was getting bored",
     ("Name", "Jakkula John Samuel Levith"),
     ("Focus", "AI/ML + full-stack systems"),
     ("Contact", "Hyderabad | jhonsamliv@gmail.com | +91 7396657238"),
