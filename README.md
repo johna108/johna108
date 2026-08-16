@@ -11,8 +11,8 @@
 
 <table>
 <tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="johna108 — ASCII portrait" /></td>
-<td valign="top"><img src="./wordmark.svg" width="490" alt="JOHN — 3D ASCII wordmark" /></td>
+<td valign="top"><img src="./john-ascii.svg" width="370" alt="johna108 — ASCII portrait" /></td>
+<td valign="middle" align="center" style="text-align: center; vertical-align: middle;"><img src="./wordmark.svg" width="490" alt="JOHN — 3D ASCII wordmark" /></td>
 </tr>
 </table>
 
@@ -24,18 +24,18 @@
 
 <h3><code>johna108@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="johna108's GitHub contribution graph — auto-refreshed daily" />
+<img src="./streak.svg" width="860" alt="johna108's GitHub contribution graph — auto-refreshed daily" />
 
 <br>
 <br>
 
 <h3><code>johna108@github ~ $ ./links.sh</code></h3>
 
-<p><b>Fullstack Developer · AI Builder · Instructor</b></p>
+<p><b>Fullstack Developer · AI Builder · ML Enthusiast</b></p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-johna108.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/johna108)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-johna108-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/johna108)
-[![Instagram](https://img.shields.io/badge/Instagram-johna108-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/johna108)
+[![Portfolio](https://img.shields.io/badge/Portfolio-johna108.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://johncraft.dev)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-johna108-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakkula-john-samuel-levith/)
+
 
 <br>
 
