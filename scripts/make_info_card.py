@@ -26,7 +26,7 @@ def build_svg(static: bool = False) -> str:
         '<circle cx="34" cy="27" r="4" fill="#ff5f57"/>',
         '<circle cx="48" cy="27" r="4" fill="#febc2e"/>',
         '<circle cx="62" cy="27" r="4" fill="#28c840"/>',
-        f'<text x="84" y="31" fill="#8aa0b5" font-family="Consolas, \"Courier New\", monospace" font-size="11">{title}</text>',
+        f'<text x="84" y="31" fill="#8aa0b5" font-family="Consolas, Courier New, monospace" font-size="11">{title}</text>',
         '<style><![CDATA[text { font-family: Consolas, "Courier New", monospace; } .label { fill: #7dd3fc; font-size: 13px; } .value { fill: #d8e1ea; font-size: 13px; }]]></style>',
     ]
     for index, (label, value) in enumerate(LINES):
