@@ -1,22 +1,22 @@
 {
   "username": "johna108",
-  "generated_at": "2026-08-22T06:59:19Z",
+  "generated_at": "2026-08-23T07:01:06Z",
   "range": {
-    "start": "2025-08-17",
+    "start": "2025-08-24",
+    "end": "2026-08-23"
+  },
+  "total_contributions": 282,
+  "active_days": 36,
+  "avg_per_active_day": 7.8,
+  "current_streak": {
+    "length": 7,
+    "start": "2026-08-16",
     "end": "2026-08-22"
   },
-  "total_contributions": 281,
-  "active_days": 35,
-  "avg_per_active_day": 8.0,
-  "current_streak": {
-    "length": 6,
-    "start": "2026-08-16",
-    "end": "2026-08-21"
-  },
   "longest_streak": {
-    "length": 6,
+    "length": 7,
     "start": "2026-08-16",
-    "end": "2026-08-21"
+    "end": "2026-08-22"
   },
   "best_day": {
     "date": "2026-02-07",
@@ -73,38 +73,10 @@
     },
     {
       "month": "2026-08",
-      "total": 36
+      "total": 37
     }
   ],
   "days": [
-    {
-      "date": "2025-08-17",
-      "count": 0
-    },
-    {
-      "date": "2025-08-18",
-      "count": 0
-    },
-    {
-      "date": "2025-08-19",
-      "count": 0
-    },
-    {
-      "date": "2025-08-20",
-      "count": 0
-    },
-    {
-      "date": "2025-08-21",
-      "count": 0
-    },
-    {
-      "date": "2025-08-22",
-      "count": 0
-    },
-    {
-      "date": "2025-08-23",
-      "count": 0
-    },
     {
       "date": "2025-08-24",
       "count": 0
@@ -1559,6 +1531,10 @@
     },
     {
       "date": "2026-08-22",
+      "count": 1
+    },
+    {
+      "date": "2026-08-23",
       "count": 0
     }
   ]
