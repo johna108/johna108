@@ -1,22 +1,22 @@
 {
   "username": "johna108",
-  "generated_at": "2026-08-30T11:54:01Z",
+  "generated_at": "2026-08-31T13:47:53Z",
   "range": {
     "start": "2025-08-31",
+    "end": "2026-08-31"
+  },
+  "total_contributions": 290,
+  "active_days": 44,
+  "avg_per_active_day": 6.6,
+  "current_streak": {
+    "length": 15,
+    "start": "2026-08-16",
     "end": "2026-08-30"
   },
-  "total_contributions": 289,
-  "active_days": 43,
-  "avg_per_active_day": 6.7,
-  "current_streak": {
-    "length": 14,
-    "start": "2026-08-16",
-    "end": "2026-08-29"
-  },
   "longest_streak": {
-    "length": 14,
+    "length": 15,
     "start": "2026-08-16",
-    "end": "2026-08-29"
+    "end": "2026-08-30"
   },
   "best_day": {
     "date": "2026-02-07",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 44
+      "total": 45
     }
   ],
   "days": [
@@ -1535,6 +1535,10 @@
     },
     {
       "date": "2026-08-30",
+      "count": 1
+    },
+    {
+      "date": "2026-08-31",
       "count": 0
     }
   ]
